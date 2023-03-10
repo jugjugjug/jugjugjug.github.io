@@ -1,29 +1,56 @@
-curl \
-  -X POST \
-  -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer <YOUR-TOKEN>"\
-  -H "X-GitHub-Api-Version: 2022-11-28" \
-  https://api.github.com/markdown \
-  -d '{"text":"Hello **world**"}'
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The better unblocked games website." />
+    <meta name="keywords" content="front-end web developer, unblocked, games, google sites, unblocked games mom, ublocked, code, coding, programmer, development, javascript, jquery, bootstrap, sass, less, git" />
+    <meta name="author" content="3kh0" />
+    <meta content="3kh0" property="og:title" />
+    <meta content="The better unblocked games website." property="og:description" />
+    <meta content="./images/logo.png" property="og:image" />
+ 
+    <title>3kh0</title>
+    <link href="./images/logo.png" rel="icon" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <link rel="manifest" href="/manifest.json" />
+    <script src="./assets/webrtc-ip.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navitems">
+        <img onclick="location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'" src="./images/logo.png" class="navlogo" draggable="false" />
+        <a href="/"><div class="navitem" current>Home</div></a>
+        <a href="./work"><div class="navitem">Games</div></a>
+        <a href="./extras"><div class="navitem">Extras</div></a>
+        <a href="./settings"><div class="navitem">Settings</div></a>
+      </div>
+    </div>
+ 
+    <div class="title">jug</div>
+    <center>
+      <div class="message homemessage" onclick="setRandomSay()">...</div>
+      <p class="section-text"><a href="./blog/v4release">Welcome to jugGames!</a></p>
+      <br />
+      <a href="./projects" class="play-link" data-aos="fade-up"><button class="play">Play Now</button></a>
+    </center>
+ 
+    <a href="#reviews"><button class="reviews-link">Reviews</button></a>
+ 
+    <div id="reviews"></div>
+ 
+    <div id="my-keen-slider" class="keen-slider"></div>
+    
+ 
+    <footer>© jug 2023</footer>
+ 
+    </script>
+    <script src="./assets/keen-slider.min.js"></script>
+    <script src="./js/reviews.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/home.js"></script>
+  </body>
+</html>
