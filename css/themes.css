@@ -2,14 +2,14 @@
 
 body[theme="default"] {
   --background: #1c1c1c;
-  --theme: #4caf50;
+  --theme: #9832fc;
   --text: white;
   --text-secondary: black;
 }
 
 body[theme="light"] {
   --background: white;
-  --theme: #4caf50;
+  --theme: #9832fc;
   --text: black;
   --text-secondary: black;
 }
