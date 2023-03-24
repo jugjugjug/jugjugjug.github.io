@@ -1,7 +1,15 @@
-// Hello epic hacker (maybe skid) you are looking at one of the many scripts that powers the site, this script has extra comments and info to help you understand what is going on.
+/*
+Hello epic hacker (maybe skid) you are looking at one of the many scripts that powers the site,
+this script has extra comments and info to help you understand what is going on.
 
-// This is a JavaScript code that creates a game catalog page with a search feature, a game detail page, and the ability to save and load user data. It uses fetch to load game data from a JSON file, creates game elements for each game, and adds click event listeners to show the game in a game container. The code also includes functions to handle saving and loading user data as well as a function to handle a specific key sequence.
+This is a JavaScript code that creates a game catalog page with a search feature,
+a game detail page, and the ability to save and load user data.
 
+It uses fetch to load game data from a JSON file, creates game elements for each game,
+and adds click event listeners to show the game in a game container.
+
+The code also includes functions to handle saving and loading user data as well as a function to handle a specific key sequence.
+*/
 // Select the elements
 const gamesContainer = document.querySelector('.games');
 const searchBar = document.querySelector('.searchbar');
