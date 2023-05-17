@@ -51,10 +51,10 @@ body[theme="nebelung"] .navbar {
   animation: nebelungBreathing 5s ease-out infinite normal;
 }
 
-body[theme="piplup"] {
-  --background: #5bacee;
-  --theme: #0026ff;
-  --text: white;
+body[theme="sabrina"] {
+  --background: #ffb6c1;
+  --theme: #ff69b4;
+  --text: pink;
   --text-secondary: black;
 }
 
